@@ -1,0 +1,43 @@
+* {
+  color: red;
+  /* border: 2px solid red; */
+}
+
+.first_declared,
+.last_declared {
+  /*  background-color: rgb(200, 50, 150); */
+  font-weight: 800;
+}
+.first_declared {
+  color: rgb(50, 50, 200);
+  font-size: 32px;
+}
+.last_declared {
+  /*  background-color: rgb(50, 200, 187); */
+  color: darkolivegreen;
+  font-size: 14px;
+  font-weight: 800;
+}
+
+a:visited {
+  color: greenyellow;
+}
+
+h1 + p + h3 {
+  color: aqua;
+}
+
+.flex-cont {
+  display: flex;
+  background: red;
+  border: 5px solid greenyellow;
+  margin: 8px;
+  padding: 16px;
+}
+
+.flex-cont div {
+  background: peachpuff;
+  border: 2px solid brown;
+  height: 200px;
+  flex: 1;
+}
